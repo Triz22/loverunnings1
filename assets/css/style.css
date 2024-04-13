@@ -39,8 +39,8 @@ h1 {
     letter-spacing:2px;
     text-transform:uppercase;
     color: #252525 ;
-    
 }
+
 
 #menu {
     letter-spacing:6px;
@@ -52,11 +52,19 @@ h1 {
     margin-bottom: 1em;
 }
 
-.active {border-bottom: 1px solid #3a3a3a;
-    color:#3a3a3a;
-
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
+nav {
+    position:absolute;
+    width:100%;
+    background-color: #ffffff;
+    left:0;
+    padding:0 1rem;
+    box-shadow: 2px 2px #3a3a3a ;
+    display:none;
+}
 
 /*Main Content*/
 main {
